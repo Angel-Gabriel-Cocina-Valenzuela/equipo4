@@ -26,3 +26,18 @@ Para convertir los requerimientos iniciales de la encargada de la biblioteca en 
 - Límite de préstamos simultáneos: Un alumno puede tener máximo 2 libros activos a la vez.
 - Plazo de entrega: Todo préstamo tiene una duración de 7 días naturales.
 - Retrasos y sanciones: Si un alumno entrega fuera de fecha o tiene préstamos vencidos, su estado cambia a sancionado, bloqueando nuevos préstamos hasta regularizarse su situación.
+
+
+---
+
+Funcionalidades del Sistema
+1. Registrar libros: Alta de títulos, subtítulos, autores y numero de ejemplares disponibles.
+2. Registrar alumnos: Alta de estudiantes con matrícula única y estando activo.
+3. Registrar préstamos: Validación de disponibilidad , límite de libros por alumno y cálculo automático de fecha de entrega.
+4. Registrar devolución: Actualización de inventario disponible.
+5. Buscar libro por título: Búsqueda por coincidencia parcial en título y subtítulo mostrando ejemplares libres.
+6. Consultar préstamos por alumno: Visualización de los libros activos que tiene un estudiante específico.
+7. Ver alumnos retrasados: Listado de préstamos activos cuya fecha de entrega es menor a la fecha actual.
+8. Reporte de fin de mes: Ranking de los libros más solicitados según su historial de préstamos.
+
+---
