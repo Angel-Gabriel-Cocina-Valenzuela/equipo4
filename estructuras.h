@@ -15,7 +15,7 @@ typedef struct {
 } Fecha;
 
 typedef struct {
-    int codigo;
+    //opcional int codigo;
     char titulo[60];
     char subtitulo[60];
     char autor[50];
